@@ -5,7 +5,10 @@ export default function Home() {
     <>
       <h1 className="title">Trial Tmp App</h1>
       <p>
-        <Link href="/about">about</Link>
+        <Link href="/check-ssr">Check SSR</Link>
+      </p>
+      <p>
+        <Link href="/check-api">Check API</Link>
       </p>
     </>
   );

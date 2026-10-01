@@ -25,7 +25,7 @@ resource "aws_lambda_function" "ssr" {
   publish          = true
   environment {
     variables = {
-      ABOUT_MESSAGE = "これはaboutページです"
+      ABOUT_MESSAGE = "SSRで値を入れました！"
     }
   }
 }
