@@ -1,0 +1,30 @@
+{
+  "name": "trial-vinext-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "start": "vinext start"
+  },
+  "dependencies": {
+    "bulma": "^1.0.4",
+    "nitro": "^3.0.260903-beta",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-server-dom-webpack": "^19.3.0",
+    "vinext": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@vitejs/plugin-react": "^6.1.1",
+    "@vitejs/plugin-rsc": "^0.5.35",
+    "oxfmt": "^0.71.0",
+    "typescript": "latest",
+    "vite": "^8.3.1"
+  },
+  "packageManager": "npm@12.1.0"
+}
