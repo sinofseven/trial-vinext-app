@@ -35,6 +35,6 @@ cloudfront_url = "00000000000000.cloudfront.net"
 public_bucket_name = "trial-vinext-app-000000000000-ap-northeast-1-an"
 
 # outputで出力されたS3 Bucket名を使って静的ファイルをS3 Bucketにアップロードしてください
-$ cd .output/public
+$ cd ../../../.output/public
 $ aws s3 sync . s3://trial-vinext-app-000000000000-ap-northeast-1-an
 ```
