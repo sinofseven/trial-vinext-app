@@ -1,9 +1,29 @@
-# vinext app
+# trial-vinext-app
 
-This project was created with create-vinext-app.
+Vinextで作成したNext.jsのアプリをAWS Lambdaにデプロイするサンプル。
 
-## Scripts
+CloudfrontとLambda URL Functionsで動かすのでAWSリソースのIaCにはTerraformを使用している。
 
-- `pnpm run dev` starts the vinext dev server.
-- `pnpm run build` builds production output.
-- `pnpm run start` starts the production server locally.
+## How to Deploy
+
+### 1. Dependency Install
+
+```bash
+npm ci
+```
+
+### 2. Build
+
+```bash
+npm run build
+```
+
+### 3. Deploy
+
+環境変数などを使ってAWS CLIでAWSに触れるようにしてから動かしてください。
+
+```bash
+cd terraform/envs/prd
+terraform init
+terraform apply -auto-approve
+```
