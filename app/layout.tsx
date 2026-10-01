@@ -13,7 +13,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body>
         <nav className="navbar is-link">
           <div className="navbar-brand">
-            <span className="navbar-item">Trial Tmp App</span>
+            <span className="navbar-item">Trial Vinext App</span>
           </div>
         </nav>
         <div className="container pt-3">{children}</div>
