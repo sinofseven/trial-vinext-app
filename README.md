@@ -31,7 +31,7 @@ Apply complete!
 
 Outputs:
 
-cloudfront_url = "00000000000000.cloudfront.net"
+cloudfront_domain = "00000000000000.cloudfront.net"
 public_bucket_name = "trial-vinext-app-000000000000-ap-northeast-1-an"
 
 # outputで出力されたS3 Bucket名を使って静的ファイルをS3 Bucketにアップロードしてください

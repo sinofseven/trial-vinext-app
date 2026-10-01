@@ -33,8 +33,8 @@ module "common" {
 # Outputs
 # ================================================================
 
-output "cloudfront_url" {
-  value = module.common.cloudfront_url
+output "cloudfront_domain" {
+  value = module.common.cloudfront_domain
 }
 
 output "public_bucket_name" {

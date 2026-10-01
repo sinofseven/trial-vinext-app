@@ -1,4 +1,4 @@
-output "cloudfront_url" {
+output "cloudfront_domain" {
   value = aws_cloudfront_distribution.web.domain_name
 }
 
